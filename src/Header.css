@@ -1,0 +1,54 @@
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(31, 29, 29);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 150px;
+  object-fit: contain;
+  margin: 20px 20px;
+  margin-top: 18px;
+}
+
+.header__optionLineOne {
+  display: flex;
+  font-size: 15px;
+}
+
+.header__optionLineTwo {
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  font-size: 20px;
+
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header__nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}

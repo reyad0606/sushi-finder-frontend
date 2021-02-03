@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hometop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* max-width: 400px; */
+  background-color: black;
+  height: 100%;
+}
+
+.customerRating {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+}
+
+.homeleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 40%;
+  max-width: 400px;
+  background-color: whitesmoke;
+  height: 100%;
+  padding: 15px;
+  /* border: 2px solid black; */
+}
+
+.homeright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  max-width: 400px;
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.restaurant_list {
+  display: flex;
+  /* flex-direction: row; */
+  border: 5px solid black;
+  border-radius: 20px;
+  background: #bb7e45; /* fallback for old browsers */
+
+  width: 400px;
+  max-width: 400px;
+}
+/* body {
+  background-color: red;
+} */
