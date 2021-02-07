@@ -15,8 +15,8 @@
 h1 {
   font-weight: 500;
   margin-bottom: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h5 {
@@ -40,7 +40,7 @@ button {
   color: white;
   background-color: black;
   font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .registrationContainer {

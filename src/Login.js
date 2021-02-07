@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 import sushiLogo from "./images/sushiLogo.png";
+
+
+
 function Login() {
   const [isFaded, setIsFaded] = useState(false);
 
